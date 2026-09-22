@@ -188,6 +188,8 @@ svg {
 }
 /*https://www.w3schools.com/css/css_link.asp*/
 /*I don't remember styling links like the example had. I found the above site on how to do that.*/
+/*When I looked this up, it said that link and visited are psuedo-classes and the space is a descendant combinator.*/
+/*https://www.w3schools.com/csSref/css_ref_combinators.php*/
 .global-header a:link,
 .global-header a:visited,
 #park-header a:link,
