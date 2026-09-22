@@ -186,3 +186,12 @@ svg {
   justify-content: space-between;
   fill: white;
 }
+/*https://www.w3schools.com/css/css_link.asp*/
+/*I don't remember styling links like the example had. I found the above site on how to do that.*/
+.global-header a:link,
+.global-header a:visited,
+#park-header a:link,
+#park-header a:visited {
+  color: white;
+  text-decoration: none;
+}
