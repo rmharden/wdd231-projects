@@ -197,3 +197,9 @@ svg {
   color: white;
   text-decoration: none;
 }
+
+.global-header .icon {
+  width: 20px;
+  height: 20px;
+}
+
