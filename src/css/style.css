@@ -171,3 +171,18 @@ svg {
   background-color: var(--bs-black);
   fill: white;
 }
+
+/* Globar navbar styling */
+/*I didn't know what var was in CSS. I found a link that explains custom styles and explains root and var.*/
+/*https://www.w3schools.com/CSS/css3_variables.asp*/
+
+/*I have also never seen fill before. I looked it up and found out that it's associated to SVG. It says that it's a Fill Attribute.*/
+/*https://www.w3schools.com/graphics/svg_fill.asp*/
+
+.global-header {
+  background-color: var(--bs-black);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  fill: white;
+}
