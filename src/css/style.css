@@ -195,12 +195,17 @@ a:hover {
 }
 
 .global-header_right button {
+  display: flex;
+  align-items: center;
+  /*I didn't know about this. I knew how to change the text in HTML but I didn't know how to do it in CSS. I looked it up in W3Schools.*/
+  /*https://www.w3schools.com/CSSref/pr_text_text-transform.php*/
+  text-transform: uppercase;
   background-color: transparent;
   border: none;
   color: white;
   font-size: 1rem;
   padding: 1.2em;
-  
+
 }
 
 svg {
