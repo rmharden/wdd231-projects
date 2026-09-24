@@ -209,6 +209,10 @@ a:hover {
   border-left: 1px solid var(--bs-grey-5)
 }
 
+.park-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
 svg {
   background-color: var(--bs-black);
   fill: white;
