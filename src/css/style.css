@@ -185,6 +185,15 @@ a:hover {
   color: white;
 }
 
+.global-header .icon {
+  width: 20px;
+  height: 20px;
+}
+.global-header_right {
+  display: flex;
+  align-items: center;
+}
+
 svg {
   background-color: var(--bs-black);
   fill: white;
