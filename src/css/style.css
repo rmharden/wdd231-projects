@@ -213,6 +213,14 @@ a:hover {
   display: grid;
   grid-template-columns: 1fr;
 }
+
+.park-container > img {
+  width: 100%;
+  height: 350px;
+  /*https://www.w3schools.com/css/css3_object-fit.asp*/
+  object-fit: cover;
+}
+
 svg {
   background-color: var(--bs-black);
   fill: white;
