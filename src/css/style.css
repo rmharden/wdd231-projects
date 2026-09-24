@@ -167,6 +167,15 @@ a:hover {
   overflow: hidden;
 }
 
+/*The instructor code had this. I don't know where it goes. This is my guess.*/
+/* Global navbar styling */
+.global-header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--bs-black);
+}
+
 svg {
   background-color: var(--bs-black);
   fill: white;
