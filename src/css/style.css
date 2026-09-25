@@ -240,6 +240,8 @@ a:hover {
 
 .park-details {
   display: flex;
+  flex-direction:  column;
+  font-size: 0.8rem;
 }
 
 svg {
