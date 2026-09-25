@@ -206,7 +206,7 @@ a:hover {
   font-size: 1rem;
   padding: 1.2em;
   /*This is the vertical rule*/
-  border-left: 1px solid var(--bs-grey-5)
+  border-left: 1px solid var(--bs-grey-2)
 }
 
 .park-container {
