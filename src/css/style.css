@@ -234,6 +234,14 @@ a:hover {
   padding: 0.5em 1em;
 }
 
+.park-container__title {
+  font-size: 1.8em;
+}
+
+.park-details {
+  display: flex;
+}
+
 svg {
   background-color: var(--bs-black);
   fill: white;
