@@ -3,9 +3,6 @@ import { getParkData } from "./parkService.mjs";
 
 const parkData = getParkData();
 
-const disclaimer = document.querySelector(".disclaimer > a");
-disclaimer.href = parkData.url;
-disclaimer.innerHTMl = parkData.fullName;
 
 function parkInfoTemplate(info) {
     return `<a href='/' class="park-title">${info.name}</a>
@@ -14,3 +11,10 @@ function parkInfoTemplate(info) {
         <span>${info.states}</span>
     </p>`;
 }
+
+const disclaimer = document.querySelector(".disclaimer > a");
+disclaimer.href = parkData.url;
+disclaimer.innerHTMl = parkData.fullName;
+
+
+document.querySelector("head > title").textContent = parkData.fullName;
