@@ -41,10 +41,34 @@
         "notes" : ""
     },
         {
-        "name" : "eggs",
+        "name" : "baking Soda",
         "amounts" : { 
-            "amount" : "3",
-            "unit" : "each"
+            "amount" : "1 1/2",
+            "unit" : "teaspoons"
+        },
+        "notes" : ""
+    },
+    {
+        "name" : "salt",
+        "amounts" : { 
+            "amount" : "1/2",
+            "unit" : "teaspoons"
+        },
+        "notes" : ""
+    },
+        {
+        "name" : "flour",
+        "amounts" : { 
+            "amount" : "5",
+            "unit" : "cups"
+        },
+        "notes" : "we like 3 cups white and 2 cups whole wheat."
+    },
+            {
+        "name" : "baking Soda",
+        "amounts" : { 
+            "amount" : "1 1/2",
+            "unit" : "teaspoons"
         },
         "notes" : ""
     },
