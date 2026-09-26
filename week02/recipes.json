@@ -10,7 +10,7 @@
     },
     {
         "name" : "brown-sugar",
-        "amounts" { 
+        "amounts" : { 
             "amount" : "1 1/2",
             "unit" : "cups"
         },
