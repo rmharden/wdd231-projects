@@ -56,7 +56,7 @@
         },
         "notes" : ""
     },
-        {
+    {
         "name" : "flour",
         "amounts" : { 
             "amount" : "5",
@@ -64,13 +64,27 @@
         },
         "notes" : "we like 3 cups white and 2 cups whole wheat."
     },
-            {
-        "name" : "baking Soda",
+    {
+        "name" : "chocolate chips",
         "amounts" : { 
-            "amount" : "1 1/2",
-            "unit" : "teaspoons"
+            "amount" : "2",
+            "unit" : "cups"
         },
-        "notes" : ""
+        "notes" : "semi-sweet"
     },
+        {
+        "name" : "coconut",
+        "amounts" : { 
+            "amount" : "1-2",
+            "unit" : "cups"
+        },
+        "notes" : "shreaded"
+    }
+],
+"steps" : [
+    "",
+    "",
+    "",
+    ""
 ]
 }
