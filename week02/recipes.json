@@ -12,12 +12,12 @@
         "name" : "brown-sugar",
         "amounts" { 
             "amount" : "1 1/2",
-            "unit" : "cup"
+            "unit" : "cups"
         },
         "notes" : ""
     },
     {
-
+        
     }
 ]
 }
