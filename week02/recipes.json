@@ -17,7 +17,36 @@
         "notes" : ""
     },
     {
-        
-    }
+        "name" : "white-sugar",
+        "amounts" : { 
+            "amount" : "1",
+            "unit" : "cups"
+        },
+        "notes" : ""
+    },
+    {
+        "name" : "eggs",
+        "amounts" : { 
+            "amount" : "3",
+            "unit" : "each"
+        },
+        "notes" : ""
+    },
+        {
+        "name" : "vanilla",
+        "amounts" : { 
+            "amount" : "2",
+            "unit" : "teaspoons"
+        },
+        "notes" : ""
+    },
+        {
+        "name" : "eggs",
+        "amounts" : { 
+            "amount" : "3",
+            "unit" : "each"
+        },
+        "notes" : ""
+    },
 ]
 }
