@@ -2,7 +2,7 @@
     "recipe_name" : "Chocolate Chip Cookies",
     "ingedients" : [{
         "name" : "butter",
-        "amounts" {
+        "amounts" : {
             "amount" : "1",
             "unit" : "lb"
         },
@@ -80,11 +80,11 @@
         },
         "notes" : "shreaded"
     }
-],
-"steps" : [
-    "Cream the butter and sugar together, then beat in the eggs and vanilla.",
-    "Mix in salt, soda and flour.",
-    "Add chocolate chips and coconut.",
-    "Bake 8-10 minutes at 350 F."
-]
+    ],
+    "steps" : [
+        "Cream the butter and sugar together, then beat in the eggs and vanilla.",
+        "Mix in salt, soda and flour.",
+        "Add chocolate chips and coconut.",
+        "Bake 8-10 minutes at 350 F."
+    ]
 }
