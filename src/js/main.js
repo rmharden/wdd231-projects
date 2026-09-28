@@ -65,7 +65,8 @@ setParkIntro(parkData);
 /*https://www.w3schools.com/jsref/jsref_map.asp*/
 /*This is an example from w3schools on how to do a map. I haven't heard of it before and needed to look it up.*/
 
-const information = parkInfoLinks.map(mediaCardTemplate);
-
-const mediaInfo = document.querySelector(".info");
-
+function setParkInfo(data) {
+    const mediaInfo = document.querySelector(".info");
+    const information = parkInfoLinks.map(mediaCardTemplate);
+    mediaInfo.innerHTML = information.join("");
+}
