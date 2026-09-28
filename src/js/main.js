@@ -23,11 +23,6 @@ const parkInfoLinks = [
     }
 ]
 
-/*https://www.w3schools.com/jsref/jsref_map.asp*/
-/*This is an example from w3schools on how to do a map. I haven't heard of it before and needed to look it up.*/
-
-parkInfoLinks.map(mediaCardTemplate);
-
 function parkInfoTemplate(info) {
     return `<a href='/' class="park-title">${info.name}</a>
     <p class="park-details">
@@ -66,3 +61,8 @@ function mediaCardTemplate(info) {
 
 setHeaderInfo(parkData);
 setParkIntro(parkData);
+
+/*https://www.w3schools.com/jsref/jsref_map.asp*/
+/*This is an example from w3schools on how to do a map. I haven't heard of it before and needed to look it up.*/
+
+const information = parkInfoLinks.map(mediaCardTemplate);
