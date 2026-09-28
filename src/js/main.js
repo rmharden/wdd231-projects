@@ -8,6 +8,18 @@ const parkInfoLinks = [
         link: "conditions.html",
         image: parkData.images[2].url,
         description: "See what conditions to expect in the park before leaving on your trip!"
+    },
+    {
+        name: "",
+        link: "",
+        image: parkData.images[3].url,
+        description: ""
+    },
+    {
+        name: "Vistor Centers &#x203A;",
+        link: "",
+        image: parkData.images[3].url,
+        description: ""
     }
 ]
 
