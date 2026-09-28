@@ -11,10 +11,11 @@ function parkInfoTemplate(info) {
         <span>${info.states}</span>
     </p>`;
 }
-
-const disclaimer = document.querySelector(".disclaimer > a");
-disclaimer.href = parkData.url;
-disclaimer.innerHTML = parkData.fullName;
-document.querySelector("head > title").textContent = parkData.fullName;
-document.querySelector(".park-container > img").src = parkData.images[0].url;
-document.querySelector(".park_content").innerHTML = parkInfoTemplate(parkData);
+function setHeaderInfo(data) {
+    const disclaimer = document.querySelector(".disclaimer > a");
+    disclaimer.href = parkData.url;
+    disclaimer.innerHTML = parkData.fullName;
+    document.querySelector("head > title").textContent = parkData.fullName;
+    document.querySelector(".park-container > img").src = parkData.images[0].url;
+    document.querySelector(".park_content").innerHTML = parkInfoTemplate(parkData);
+}
