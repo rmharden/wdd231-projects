@@ -28,7 +28,15 @@ function setParkIntro(data) {
 }
 
 function mediaCardTemplate(info) {
-    
+    const mediaCard = document.querySelector(".info");
+    mediaCard.innerHTML = 
+    `
+        <a href="${}">"${}"<img src="${}" alt "${}"
+        </a>
+        <a href="${}">${}</a>
+        <p>${}</p>
+
+    `;
 }
 
 setHeaderInfo(parkData);
