@@ -20,9 +20,9 @@ function setHeaderInfo(data) {
 }
 
 function setParkIntro(data) {
-    const intoduction = document.querySelector(".intro > a");
-    intoduction.innerHTML = data.fullName;
-    intoduction.innerHTML = data.description;
+    const introduction = document.querySelector(".intro");
+    introduction.innerHTML = data.fullName;
+    introduction.innerHTML = data.description;
 }
 
 setHeaderInfo(parkData);
