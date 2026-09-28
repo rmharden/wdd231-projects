@@ -10,16 +10,16 @@ const parkInfoLinks = [
         description: "See what conditions to expect in the park before leaving on your trip!"
     },
     {
-        name: "",
-        link: "",
+        name: "Fees and Passes &#x203A;",
+        link: "fees.html",
         image: parkData.images[3].url,
-        description: ""
+        description: "Learn about the fess and passes that are available."
     },
     {
         name: "Vistor Centers &#x203A;",
-        link: "",
-        image: parkData.images[3].url,
-        description: ""
+        link: "visitor_centers.html",
+        image: parkData.images[9].url,
+        description: "Learn about the visitor centers in the park."
     }
 ]
 
