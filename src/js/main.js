@@ -21,9 +21,9 @@ function setHeaderInfo(data) {
 
 function setParkIntro(data) {
     const introduction = document.querySelector(".intro");
-    return `
-        <h1>${intro.fullName}</h1>
-        <p>${intro.description}</p>
+    introduction.innerHTML = `
+        <h1>${data.fullName}</h1>
+        <p>${data.description}</p>
     `;
 }
 
