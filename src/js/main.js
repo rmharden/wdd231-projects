@@ -1,4 +1,3 @@
-/*CURRENT JS to SAVE*/
 import { getParkData } from "./parkService.mjs";
 
 const parkData = getParkData();
@@ -13,9 +12,9 @@ function parkInfoTemplate(info) {
 }
 function setHeaderInfo(data) {
     const disclaimer = document.querySelector(".disclaimer > a");
-    disclaimer.href = parkData.url;
-    disclaimer.innerHTML = parkData.fullName;
-    document.querySelector("head > title").textContent = parkData.fullName;
-    document.querySelector(".park-container > img").src = parkData.images[0].url;
-    document.querySelector(".park_content").innerHTML = parkInfoTemplate(parkData);
+    disclaimer.href = data.url;
+    disclaimer.innerHTML = data.fullName;
+    document.querySelector("head > title").textContent = data.fullName;
+    document.querySelector(".park-container > img").src = data.images[0].url;
+    document.querySelector(".park_content").innerHTML = parkInfoTemplate(data);
 }
