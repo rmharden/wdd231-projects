@@ -27,5 +27,9 @@ function setParkIntro(data) {
     `;
 }
 
+function mediaCardTemplate(info) {
+    
+}
+
 setHeaderInfo(parkData);
 setParkIntro(parkData);
