@@ -2,6 +2,15 @@ import { getParkData } from "./parkService.mjs";
 
 const parkData = getParkData();
 
+const parkInfoLinks = [
+    {
+        name: "Current Conditions &#x203A;",
+        link: "conditions.html",
+        image: parkData.images[2].url,
+        description: "See what conditions to expect in the park before leaving on your trip!"
+    }
+]
+
 
 function parkInfoTemplate(info) {
     return `<a href='/' class="park-title">${info.name}</a>
