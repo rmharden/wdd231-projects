@@ -28,3 +28,4 @@ function setParkIntro(data) {
 }
 
 setHeaderInfo(parkData);
+setParkIntro(parkData);
