@@ -18,3 +18,5 @@ function setHeaderInfo(data) {
     document.querySelector(".park-container > img").src = data.images[0].url;
     document.querySelector(".park_content").innerHTML = parkInfoTemplate(data);
 }
+
+setHeaderInfo(parkData);
