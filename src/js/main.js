@@ -66,3 +66,6 @@ setParkIntro(parkData);
 /*This is an example from w3schools on how to do a map. I haven't heard of it before and needed to look it up.*/
 
 const information = parkInfoLinks.map(mediaCardTemplate);
+
+const mediaInfo = document.querySelector(".info");
+
