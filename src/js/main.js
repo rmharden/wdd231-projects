@@ -28,14 +28,12 @@ function setParkIntro(data) {
 }
 
 function mediaCardTemplate(info) {
-    const mediaCard = document.querySelector(".info");
-    mediaCard.innerHTML = 
-    `
-        <a href="${}">"${}"<img src="${}" alt "${}"
+    return `
+        <a href="${info.link}">
+            <img src="${info.image}" alt="photo of ${info.name}">
+            <h3 class="media_card__title">${info.name}</h3>
         </a>
-        <a href="${}">${}</a>
-        <p>${}</p>
-
+        <p>${info.description}</p>
     `;
 }
 
