@@ -99,3 +99,4 @@ function setParkFooter(data) {
 setHeaderInfo(parkData);
 setParkIntro(parkData);
 setParkInfo(parkData);
+setParkFooter(parkData);
