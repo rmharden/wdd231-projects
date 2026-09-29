@@ -70,7 +70,7 @@ function setParkInfo(data) {
 }
 
 function parkFooterTemplate(data) {
-    
+    const voicePhone =data.contacts.phoneNumners.find((phone) => phone.type === "Voice");
 }
 
 setHeaderInfo(parkData);
