@@ -58,13 +58,6 @@ function mediaCardTemplate(info) {
         </div>
     `;
 }
-function setParkIntro(data) {
-    const introduction = document.querySelector(".intro");
-    introduction.innerHTML = `
-        <h1>${data.fullName}</h1>
-        <p>${data.description}</p>
-    `;
-}
 
 /*https://www.w3schools.com/jsref/jsref_map.asp*/
 /*This is an example from w3schools on how to do a map. I haven't heard of it before and needed to look it up.*/
