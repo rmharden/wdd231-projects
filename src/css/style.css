@@ -289,3 +289,7 @@ a:hover {
 
   padding: 20px;
 }
+
+#park-footer h3 {
+  text-transform: uppercase;
+}
