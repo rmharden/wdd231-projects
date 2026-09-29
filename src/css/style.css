@@ -281,3 +281,9 @@ a:hover {
   background-color: var(--bs-black);
   fill: white;
 }*/
+
+/*https://www.w3schools.com/css/css_background_image.asp*/
+#park-footer {
+  background-image: url("../images/topo_pattern.png");
+  background-color: rgb(239, 238, 232);
+}
