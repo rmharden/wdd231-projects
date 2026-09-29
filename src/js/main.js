@@ -69,6 +69,10 @@ function setParkInfo(data) {
     mediaInfo.innerHTML = information.join("");
 }
 
+function parkFooterTemplate(data) {
+    
+}
+
 setHeaderInfo(parkData);
 setParkIntro(parkData);
 setParkInfo(parkData);
