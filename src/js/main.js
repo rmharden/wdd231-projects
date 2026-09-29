@@ -81,8 +81,8 @@ function parkFooterTemplate(data) {
                 <p>${mailing.city}, ${mailing.stateCode} ${mailing.postalCode}</p>
             </div>
             <h4>Phone:</h4>
-            <p>${voice}</p>
-        <section>
+            <p>${voice.phoneNumber}</p>
+        </section>
     `;
 }
 
