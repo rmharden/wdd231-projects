@@ -71,7 +71,19 @@ function setParkInfo(data) {
 
 function parkFooterTemplate(data) {
     const voicePhone =data.contacts.phoneNumbers.find((phone) => phone.type === "Voice");
-    const mailingAddress =data.addresses.find((addresse) => addresse.type === "Mailing");
+    const mailing =data.addresses.find((addresse) => address.type === "Mailing");
+    return `
+        <section class="contact">
+            <h3>Contact Info</h3>
+            <h4>Mailing Address:</h4>
+            <div>
+                <p>${mailing.line1}</p>
+                <p>${mailing.city}, ${mailing.stateCode} ${mailing.postalCode}</p>
+            </div>
+            <h4>Phone:</h4>
+            <p>${voice}</p>
+        <section>
+    `;
 }
 
 setHeaderInfo(parkData);
