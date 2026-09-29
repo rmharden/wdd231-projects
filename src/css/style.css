@@ -285,6 +285,9 @@ a:hover {
 .intro h1 {
   font-family: var(--bs-font-serif);
 }
+.intro a {
+  text-decoration: none;
+}
 .intro, 
 .media-card
 {
