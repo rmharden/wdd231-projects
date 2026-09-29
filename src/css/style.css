@@ -282,6 +282,15 @@ a:hover {
   fill: white;
 }*/
 
+.intro h1 {
+  font-family: var(--bs-font-serif);
+}
+.intro, 
+.media-card
+{
+  padding: 20px;
+}
+
 /*https://www.w3schools.com/css/css_background_image.asp*/
 #park-footer {
   background-image: url("../images/topo_pattern.png");
