@@ -285,6 +285,8 @@ a:hover {
   fill: white;
 }*/
 
+/* Intro and Info Sections */
+
 .intro h1 {
   font-family: var(--bs-font-serif);
 }
@@ -297,6 +299,17 @@ a:hover {
 {
   padding: 20px;
   font-size: var(--bs-body-font-size);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1 em;
+}
+
+.info > a {
+  flex: 1;
 }
 
 /*https://www.w3schools.com/css/css_background_image.asp*/
