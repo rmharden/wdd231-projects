@@ -287,16 +287,14 @@ a:hover {
 
 /* Intro and Info Sections */
 
+.intro {
+  padding: 1em;
+}
+
 .intro h1 {
   font-family: var(--bs-font-serif);
   font-size: 2em;
   font-weight: normal;
-}
-.intro, 
-.media-card
-{
-  padding: 20px;
-  font-size: var(--bs-body-font-size);
 }
 
 .info {
