@@ -98,7 +98,9 @@ img {
 body {
   font-family: var(--bs-body-font-family);
   font-size: 18px;
-  margin: 0;
+  /*margin: 0;*/
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 a:link,
