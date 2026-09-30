@@ -321,6 +321,10 @@ a:hover {
   color: var(--bs-crete);
 }
 
+.media-card h3 {
+  margin: 0.5rem 0;
+}
+
 /*https://www.w3schools.com/css/css_background_image.asp*/
 #park-footer {
   background-image: url("../images/topo_pattern.png");
