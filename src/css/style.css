@@ -285,13 +285,15 @@ a:hover {
 .intro h1 {
   font-family: var(--bs-font-serif);
 }
-.intro a {
+.media-card a {
   text-decoration: none;
+  color: var(--bs-body-color);
 }
 .intro, 
 .media-card
 {
   padding: 20px;
+  font-size: var(--bs-body-font-size);
 }
 
 /*https://www.w3schools.com/css/css_background_image.asp*/
