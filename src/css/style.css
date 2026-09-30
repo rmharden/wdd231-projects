@@ -331,6 +331,8 @@ a:hover {
   color: var(--bs-grey-2);
 }
 
+/* Footer Styles */
+
 /*https://www.w3schools.com/css/css_background_image.asp*/
 #park-footer {
   background-image: url("../images/topo_pattern.png");
@@ -342,6 +344,23 @@ a:hover {
 /*https://www.w3schools.com/CSSref/pr_text_text-transform.php*/
 #park-footer h3 {
   text-transform: uppercase;
+  font-family: var(--bs-font-serif);
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  margin-top: 0.5em;
+}
+
+.park-footer h4 {
+  margin-top: 0.8rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.8em;
+}
+
+.park-footer p {
+  font-size: 0.8em;
+  line-height: 1;
+  color: var(--bs-grey-2);
+  margin: 0.5rem 0;
 }
 
 /*https://www.w3schools.com/cssref/css3_pr_align-items.php*/
