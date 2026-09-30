@@ -306,7 +306,7 @@ a:hover {
   padding: 1 em;
 }
 
-.info > a {
+.info > * {
   flex: 1;
 }
 
