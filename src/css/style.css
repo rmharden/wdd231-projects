@@ -346,13 +346,13 @@ a:hover {
   margin-top: 0.5em;
 }
 
-.park-footer h4 {
+#park-footer h4 {
   margin-top: 0.8rem;
   margin-bottom: 0.5rem;
   font-size: 0.8em;
 }
 
-.park-footer p {
+#park-footer p {
   font-size: 0.8em;
   line-height: 1;
   color: var(--bs-grey-2);
