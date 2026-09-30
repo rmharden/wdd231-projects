@@ -325,6 +325,12 @@ a:hover {
   margin: 0.5rem 0;
 }
 
+.media-card > p {
+  font-size: 0.8em;
+  line-height: 1.5;
+  color: var(--bs-grey-2);
+}
+
 /*https://www.w3schools.com/css/css_background_image.asp*/
 #park-footer {
   background-image: url("../images/topo_pattern.png");
