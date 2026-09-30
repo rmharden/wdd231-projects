@@ -292,10 +292,6 @@ a:hover {
   font-size: 2em;
   font-weight: normal;
 }
-.media-card a {
-  text-decoration: none;
-  color: var(--bs-body-color);
-}
 .intro, 
 .media-card
 {
@@ -312,6 +308,11 @@ a:hover {
 
 .info > a {
   flex: 1;
+}
+
+.media-card a {
+  text-decoration: none;
+  color: var(--bs-body-color);
 }
 
 /*https://www.w3schools.com/css/css_background_image.asp*/
