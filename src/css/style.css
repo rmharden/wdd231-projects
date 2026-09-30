@@ -310,9 +310,15 @@ a:hover {
   flex: 1;
 }
 
+/* Media Card Styles */
+
 .media-card a {
   text-decoration: none;
   color: var(--bs-body-color);
+}
+
+.media-card a:hover {
+  color: var(--bs-crete);
 }
 
 /*https://www.w3schools.com/css/css_background_image.asp*/
