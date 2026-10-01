@@ -14,7 +14,7 @@ function setParkFooter(data) {
     parkFooter.innerHTML = parkFooterTemplate(data);
 }
 
-export function setHeaderFooter(parkData) {
+export default function setHeaderFooter(parkData) {
     setHeaderInfo(parkData);
     setParkFooter(parkData);
 }
