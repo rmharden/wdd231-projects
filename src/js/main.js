@@ -72,7 +72,7 @@ function setParkInfo(data) {
     mediaInfo.innerHTML = information.join("");
 }
 
-function parkFooterTemplate(data) {
+/*function parkFooterTemplate(data) {
     const voice =data.contacts.phoneNumbers.find((phone) => phone.type === "Voice");
     const mailing =data.addresses.find((address) => address.type === "Mailing");
     return `
@@ -87,7 +87,8 @@ function parkFooterTemplate(data) {
             <p>${voice.phoneNumber}</p>
         </section>
     `;
-}
+}*/
+
 function setParkFooter(data) {
     const parkFooter = document.querySelector("#park-footer");
     parkFooter.innerHTML = parkFooterTemplate(data);
