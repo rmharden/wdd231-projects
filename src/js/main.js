@@ -35,14 +35,14 @@ const parkData = getParkData();
         <span>${info.states}</span>
     </p>`;
 }*/
-function setHeaderInfo(data) {
+/*function setHeaderInfo(data) {
     const disclaimer = document.querySelector(".disclaimer > a");
     disclaimer.href = data.url;
     disclaimer.innerHTML = data.fullName;
     document.querySelector("head > title").textContent = data.fullName;
     document.querySelector(".park-container > img").src = data.images[0].url;
     document.querySelector(".park_content").innerHTML = parkInfoTemplate(data);
-}
+}*/
 
 function setParkIntro(data) {
     const introduction = document.querySelector(".intro");
