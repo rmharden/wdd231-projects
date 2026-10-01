@@ -2,7 +2,11 @@ import { getParkData } from "./parkService.mjs";
 
 const parkData = getParkData();
 
-const parkInfoLinks = [
+/*NPS - part 2 | Step 04 Refactor*/
+
+/*Moved this from main.js to parkService.mjs for Refactoring*/
+
+/*const parkInfoLinks = [
     {
         name: "Current Conditions &#x203A;",
         link: "conditions.html",
@@ -21,7 +25,7 @@ const parkInfoLinks = [
         image: parkData.images[9].url,
         description: "Learn about the visitor centers in the park."
     }
-]
+]*/
 
 function parkInfoTemplate(info) {
     return `<a href='/' class="park-title">${info.name}</a>
