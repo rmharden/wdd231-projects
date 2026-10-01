@@ -1,4 +1,5 @@
 import { getParkData, parkInfoLinks } from "./parkService.mjs";
+import setHeaderFooter from "./setHeaderFooter.mjs";
 import { parkInfoTemplate, mediaCardTemplate, parkFooterTemplate} from "./templates.mjs";
 
 const parkData = getParkData();
@@ -17,6 +18,7 @@ function setParkInfo(data) {
     mediaInfo.innerHTML = information.join("");
 }
 
+setHeaderFooter(parkData);
 setParkIntro(parkData);
 setParkInfo(parkData);
 
