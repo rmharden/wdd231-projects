@@ -19,8 +19,8 @@ export function mediaCardTemplate(info) {
 }
 
 export function parkFooterTemplate(data) {
-    const voice =data.contacts.phoneNumbers.find((phone) => phone.type === "Voice");
-    const mailing =data.addresses.find((address) => address.type === "Mailing");
+    const voice = data.contacts.phoneNumbers.find((phone) => phone.type === "Voice");
+    const mailing = data.addresses.find((address) => address.type === "Mailing");
     return `
         <section class="contact">
             <h3>Contact Info</h3>

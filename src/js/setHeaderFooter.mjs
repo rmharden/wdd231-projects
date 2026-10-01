@@ -9,12 +9,12 @@ function setHeaderInfo(data) {
     document.querySelector(".park_content").innerHTML = parkInfoTemplate(data);
 }
 
-function setParkFooter(data) {
+function setFooter(data) {
     const parkFooter = document.querySelector("#park-footer");
     parkFooter.innerHTML = parkFooterTemplate(data);
 }
 
 export default function setHeaderFooter(parkData) {
     setHeaderInfo(parkData);
-    setParkFooter(parkData);
+    setFooter(parkData);
 }
