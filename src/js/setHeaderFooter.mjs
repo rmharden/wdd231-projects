@@ -9,3 +9,7 @@ function setHeaderInfo(data) {
     document.querySelector(".park_content").innerHTML = parkInfoTemplate(data);
 }
 
+function setParkFooter(data) {
+    const parkFooter = document.querySelector("#park-footer");
+    parkFooter.innerHTML = parkFooterTemplate(data);
+}

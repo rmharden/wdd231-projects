@@ -90,10 +90,10 @@ function setParkInfo(data) {
     `;
 }*/
 
-function setParkFooter(data) {
+/*function setParkFooter(data) {
     const parkFooter = document.querySelector("#park-footer");
     parkFooter.innerHTML = parkFooterTemplate(data);
-}
+}*/
 
 setHeaderInfo(parkData);
 setParkIntro(parkData);
