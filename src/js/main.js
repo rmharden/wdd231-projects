@@ -13,7 +13,7 @@ function setParkIntro(data) {
     `;
 }
 
-function setParkInfo(data) {
+function setParkInfoLinks(data) {
     const mediaInfo = document.querySelector(".info");
     const information = parkInfoLinks.map(mediaCardTemplate);
     mediaInfo.innerHTML = information.join("");
@@ -21,7 +21,7 @@ function setParkInfo(data) {
 
 setHeaderFooter(parkData);
 setParkIntro(parkData);
-setParkInfo(parkData);
+setParkInfoLinks(parkData);
 
 
 /*NPS - part 2 | Step 04 Refactor*/
