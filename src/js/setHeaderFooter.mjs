@@ -13,3 +13,8 @@ function setParkFooter(data) {
     const parkFooter = document.querySelector("#park-footer");
     parkFooter.innerHTML = parkFooterTemplate(data);
 }
+
+export function setHeaderFooter(parkData) {
+    setHeaderInfo(parkData);
+    setParkFooter(parkData);
+}

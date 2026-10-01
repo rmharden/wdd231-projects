@@ -17,11 +17,9 @@ function setParkInfo(data) {
     mediaInfo.innerHTML = information.join("");
 }
 
-
-setHeaderInfo(parkData);
 setParkIntro(parkData);
 setParkInfo(parkData);
-setParkFooter(parkData);
+
 
 /*NPS - part 2 | Step 04 Refactor*/
 
@@ -100,3 +98,6 @@ setParkFooter(parkData);
     const parkFooter = document.querySelector("#park-footer");
     parkFooter.innerHTML = parkFooterTemplate(data);
 }*/
+
+/*setHeaderInfo(parkData);*/
+/*setParkFooter(parkData);*/
