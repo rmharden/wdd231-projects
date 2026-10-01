@@ -1,4 +1,4 @@
-import { getParkData } from "./parkService.mjs";
+import { getParkData, parkInfoLinks } from "./parkService.mjs";
 
 const parkData = getParkData();
 
