@@ -1,4 +1,5 @@
 import { getParkData, parkInfoLinks } from "./parkService.mjs";
+import { parkInfoTemplate, mediaCardTemplate, parkFooterTemplate} from "./templates.mjs";
 
 const parkData = getParkData();
 
