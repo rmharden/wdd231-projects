@@ -1,6 +1,7 @@
 import { getParkData, parkInfoLinks } from "./parkService.mjs";
 import setHeaderFooter from "./setHeaderFooter.mjs";
-import { parkInfoTemplate, mediaCardTemplate, parkFooterTemplate} from "./templates.mjs";
+import { mediaCardTemplate } from "./templates.mjs";
+
 
 const parkData = getParkData();
 
@@ -26,6 +27,7 @@ setParkInfo(parkData);
 /*NPS - part 2 | Step 04 Refactor*/
 
 /*Moved this from main.js to parkService.mjs for Refactoring*/
+/*import { parkInfoTemplate, mediaCardTemplate, parkFooterTemplate} from "./templates.mjs";*/
 
 /*const parkInfoLinks = [
     {
