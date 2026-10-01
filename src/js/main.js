@@ -3,6 +3,26 @@ import { parkInfoTemplate, mediaCardTemplate, parkFooterTemplate} from "./templa
 
 const parkData = getParkData();
 
+function setParkIntro(data) {
+    const introduction = document.querySelector(".intro");
+    introduction.innerHTML = `
+        <h1>${data.fullName}</h1>
+        <p>${data.description}</p>
+    `;
+}
+
+function setParkInfo(data) {
+    const mediaInfo = document.querySelector(".info");
+    const information = parkInfoLinks.map(mediaCardTemplate);
+    mediaInfo.innerHTML = information.join("");
+}
+
+
+setHeaderInfo(parkData);
+setParkIntro(parkData);
+setParkInfo(parkData);
+setParkFooter(parkData);
+
 /*NPS - part 2 | Step 04 Refactor*/
 
 /*Moved this from main.js to parkService.mjs for Refactoring*/
@@ -44,14 +64,6 @@ const parkData = getParkData();
     document.querySelector(".park_content").innerHTML = parkInfoTemplate(data);
 }*/
 
-function setParkIntro(data) {
-    const introduction = document.querySelector(".intro");
-    introduction.innerHTML = `
-        <h1>${data.fullName}</h1>
-        <p>${data.description}</p>
-    `;
-}
-
 /*function mediaCardTemplate(info) {
     return `
         <div class="media-card">
@@ -66,12 +78,6 @@ function setParkIntro(data) {
 
 /*https://www.w3schools.com/jsref/jsref_map.asp*/
 /*This is an example from w3schools on how to do a map. I haven't heard of it before and needed to look it up.*/
-
-function setParkInfo(data) {
-    const mediaInfo = document.querySelector(".info");
-    const information = parkInfoLinks.map(mediaCardTemplate);
-    mediaInfo.innerHTML = information.join("");
-}
 
 /*function parkFooterTemplate(data) {
     const voice =data.contacts.phoneNumbers.find((phone) => phone.type === "Voice");
@@ -94,8 +100,3 @@ function setParkInfo(data) {
     const parkFooter = document.querySelector("#park-footer");
     parkFooter.innerHTML = parkFooterTemplate(data);
 }*/
-
-setHeaderInfo(parkData);
-setParkIntro(parkData);
-setParkInfo(parkData);
-setParkFooter(parkData);
