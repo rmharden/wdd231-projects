@@ -51,7 +51,7 @@ function setParkIntro(data) {
     `;
 }
 
-function mediaCardTemplate(info) {
+/*function mediaCardTemplate(info) {
     return `
         <div class="media-card">
              <a href="${info.link}">
@@ -61,7 +61,7 @@ function mediaCardTemplate(info) {
             <p>${info.description}</p>
         </div>
     `;
-}
+}*/
 
 /*https://www.w3schools.com/jsref/jsref_map.asp*/
 /*This is an example from w3schools on how to do a map. I haven't heard of it before and needed to look it up.*/
