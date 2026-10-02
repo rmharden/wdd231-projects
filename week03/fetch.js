@@ -83,7 +83,11 @@ async function getPokemon(url) {
 }
 
 async function getPokemonList(url) {
-
+    const list = await fetch(url);
+    if (list.ok) {
+        const data = await response.json();
+        doStuffList(data);
+    }
 }
 
 async function doStuffList(data) {
