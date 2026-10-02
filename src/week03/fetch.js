@@ -1,1 +1,13 @@
-const url = "https://pokeai.co/api/v2/pokemon/ditto";
+const url = "https://pokeapi.co/api/v2/pokemon/ditto";
+let results = null;
+async function getPokemon(url) {
+    const response = await fetch(url);
+    if (response.ok) {
+        const data = await response.json();
+        doStuff(data);
+    }
+}
+function doStuff(data) {
+    results = data;
+    console.log("second: ", results);
+}
