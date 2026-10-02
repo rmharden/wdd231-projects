@@ -90,11 +90,6 @@ async function getPokemonList(url) {
     }
 }
 
-async function doStuffList(data) {
-    results = data;
-    console.log(data);
-}
-
 function doStuff(data) {
     const outputElement = document.querySelector("#output");
     results = data;
@@ -113,4 +108,10 @@ function doStuff(data) {
         outputElement.innerHTML = html;
     console.log("first: ", results);
 }
+
+async function doStuffList(data) {
+    results = data;
+    console.log(data);
+}
+
 getPokemon(url);
