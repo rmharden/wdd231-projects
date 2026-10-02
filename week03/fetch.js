@@ -61,8 +61,6 @@ function doStuff(data) {
 }
 getRandomPokemon();
 
-const urlList = "https://pokeapi"
-
 function doStuffList(data) {
 
 }
