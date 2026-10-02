@@ -60,3 +60,9 @@ function doStuff(data) {
     console.log("first: ", results);
 }
 getRandomPokemon();
+
+const urlList = "https://pokeapi"
+
+function doStuffList(data) {
+
+}
