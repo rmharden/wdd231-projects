@@ -71,7 +71,7 @@ function doStuffList(data) {
 
 /* Activity 2 */
 const url = "https://pokeapi.co/api/v2/pokemon/ditto";
-const urlList = "https://pokeapi/co/api/v2/pookemon";
+const urlList = "https://pokeapi.co/api/v2/pokemon";
 let results = null;
 
 async function getPokemon(url) {
