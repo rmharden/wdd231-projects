@@ -73,6 +73,7 @@ function doStuffList(data) {
 const url = "https://pokeapi.co/api/v2/pokemon/ditto";
 const urlList = "https://pokeapi/co/api/v2/pookemon";
 let results = null;
+
 async function getPokemon(url) {
     const response = await fetch(url);
   if (response.ok) {
@@ -80,6 +81,11 @@ async function getPokemon(url) {
     doStuff(data);
   }
 }
+
+async function getPokemonList(url) {
+    
+}
+
 function doStuff(data) {
     const outputElement = document.querySelector("#output");
     results = data;
