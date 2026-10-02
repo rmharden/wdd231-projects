@@ -59,4 +59,4 @@ function doStuff(data) {
         outputElement.innerHTML = html;
     console.log("first: ", results);
 }
-getPokemon(url);
+getRandomPokemon();
