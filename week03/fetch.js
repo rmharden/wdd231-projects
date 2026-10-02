@@ -91,6 +91,7 @@ async function getPokemonList(url) {
 }
 
 async function doStuffList(data) {
+    results = data;
     console.log(data);
 }
 
