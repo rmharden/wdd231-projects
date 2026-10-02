@@ -112,6 +112,7 @@ function doStuff(data) {
 async function doStuffList(data) {
     console.log(data);
     const pokeListElement = document.querySelector("#outputList");
-}
+    const pokeList = data.results;
+}   
 
 getPokemon(url);
