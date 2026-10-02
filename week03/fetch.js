@@ -114,7 +114,7 @@ async function doStuffList(data) {
     const pokeListElement = document.querySelector("#outputList");
     const pokeList = data.results;
     pokeList.forEach((currentItem) => {
-        const html = `<li>${currentItem.name}<>>/li>`;
+        const html = `<li>${currentItem.name}</li>`;
         pokeListElement.innerHTML += html;
     });
 }   
