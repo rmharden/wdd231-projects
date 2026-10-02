@@ -118,5 +118,5 @@ async function doStuffList(data) {
         pokeListElement.innerHTML += html;
     });
 }   
-
+getPokemonList(urlList);
 getPokemon(url);
