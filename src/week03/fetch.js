@@ -9,5 +9,7 @@ async function getPokemon(url) {
 }
 function doStuff(data) {
     results = data;
-    console.log("second: ", results);
+    console.log("first: ", results);
 }
+getPokemon(url);
+console.log("second: ", results);
