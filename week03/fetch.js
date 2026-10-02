@@ -110,8 +110,8 @@ function doStuff(data) {
 }
 
 async function doStuffList(data) {
-    results = data;
     console.log(data);
+    const pokeListElement = document.querySelector("#outputList");
 }
 
 getPokemon(url);
