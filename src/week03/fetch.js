@@ -29,17 +29,18 @@ getPokemon(url);*/
 const button = document.querySelector("#randomButton");
 button.addEventListener("click", getRandomPokemon);
 
-async function getRandomPokemon(url) {
-    const randomNumber = Math.floor(Math.random() * 1025)
+async function getRandomPokemon() {
+    const randomNumber = Math.floor(Math.random() * 1025) + 1;
     const url = `https://pokeapi.co/api/v2/pokemon/${randomNumber}`;
-    
+
     const response = await fetch(url);
-    
+
     if (response.ok) {
-    const data = await response.json();
-    doStuff(data);
-  }
+        const data = await response.json();
+        doStuff(data);
+    }
 }
+
 function doStuff(data) {
     const outputElement = document.querySelector("#output");
     results = data;
