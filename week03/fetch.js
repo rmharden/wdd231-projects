@@ -83,7 +83,11 @@ async function getPokemon(url) {
 }
 
 async function getPokemonList(url) {
-    
+
+}
+
+async function doStuffList(data) {
+
 }
 
 function doStuff(data) {
