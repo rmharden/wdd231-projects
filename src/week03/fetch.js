@@ -1,0 +1,1 @@
+const url = "https://pokeai.co/api/v2/pokemon/ditto";
