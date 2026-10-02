@@ -113,6 +113,10 @@ async function doStuffList(data) {
     console.log(data);
     const pokeListElement = document.querySelector("#outputList");
     const pokeList = data.results;
+    pokeList.forEach((currentItem) => {
+        const html = `<li>${currentItem.name}<>>/li>`;
+        pokeListElement.innerHTML += html;
+    });
 }   
 
 getPokemon(url);
