@@ -220,5 +220,6 @@ export async function getParkData() {
     // convert to JSON
     data = await response.json();
   } else throw new Error("response not ok");
-    return data;
+  // return just the first row of the data object
+  return data.data[0];
 }
