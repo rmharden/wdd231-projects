@@ -1,9 +1,7 @@
+/*NPS - Part 3 | Step 03 Fix it!*/
 import { getParkData, parkInfoLinks } from "./parkService.mjs";
 import setHeaderFooter from "./setHeaderFooter.mjs";
 import { mediaCardTemplate } from "./templates.mjs";
-
-
-const parkData = getParkData();
 
 function setParkIntro(data) {
     const introduction = document.querySelector(".intro");
@@ -19,10 +17,15 @@ function setParkInfoLinks(parkInfoLinks) {
     mediaInfo.innerHTML = information.join("");
 }
 
-setHeaderFooter(parkData);
-setParkIntro(parkData);
-setParkInfoLinks(parkInfoLinks);
+async function init() {
+    const parkData = await getParkData();
 
+    setHeaderFooter(parkData);
+    setParkIntro(parkData);
+    setParkInfoLinks(parkInfoLinks);
+}
+
+init();
 
 /*NPS - part 2 | Step 04 Refactor*/
 
