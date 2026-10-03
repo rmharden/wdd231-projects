@@ -213,7 +213,7 @@ export async function getParkData() {
       "X-Api-Key": apiKey
     }
   };
-  const data = {};
+  let data = {};
   const response = await fetch(baseUrl + "parks" + "?parkCode=yell", options);
   // check to make sure the reponse was ok.
   if (response.ok) {
